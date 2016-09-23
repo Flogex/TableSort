@@ -11,7 +11,7 @@ The new position is the sum of a column.</p>
 * table[x,y] = |table[y,x] - 1|
 * So you only have to check (Length - 1 + Length - 2 + Length - n) = ((Length - 1)^2 + (Length - 1)) / 2 cells 
 * The number of comparisons equals the Triangular number with n = length - 1
-![Control Overview](TriangularNumeric_Table.PNG "TriangularNumber")
+![Control Overview](GithubResources/TriangularNumeric_Table.PNG "TriangularNumber")
 
 ##Example
-![Control Overview](SampleSort.PNG "Example")</br>
+![Control Overview](GithubResources/SampleSort.PNG "Example")</br>
