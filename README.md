@@ -8,9 +8,10 @@ If a < b then the position of of a is incremented, else the position b is increm
 The new position is the sum of a column.</p>
 
 ##Number of comparisons
-* table[x,y] = |table[y,x] - 1|
-* So you only have to check (Length - 1 + Length - 2 + Length - n) = ((Length - 1)^2 + (Length - 1)) / 2 cells 
-* The number of comparisons equals the Triangular number with n = length - 1
+<p>table[x,y] = |table[y,x] - 1|</p>
+<p>So you only have to check</p>
+![alt-tag](GithubResources/formula.PNG "TriangularNumber_formula")
+<p>cells, which equals the number of comparisons.</p>
 ![Control Overview](GithubResources/TriangularNumeric_Table.PNG "TriangularNumber")
 
 ##Example
