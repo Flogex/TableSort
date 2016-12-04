@@ -1,7 +1,7 @@
 using System;
 using System.Collections.Generic;
 
-namespace Flogex.SortingAllgorithms.TableSort
+namespace Flogex.SortingAllgorithms
 {
     class TableSort<T> where T:IComparable
     {
