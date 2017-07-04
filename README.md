@@ -10,9 +10,9 @@ The new position is the sum of a column.</p>
 ## Number of comparisons
 <p>table[x,y] = |table[y,x] - 1|</p>
 <p>So you only have to check</p>
-![alt text](GithubResources/formula.PNG "TriangularNumber_formula")
+<img src="GithubResources/formula.PNG" alt="TriangularNumber_formula">
 <p>cells, which equals the number of comparisons.</p>
-![Control Overview](GithubResources/TriangularNumeric_Table.PNG "TriangularNumber")
+<img src="GithubResources/TriangularNumeric_Table.PNG" alt="TriangularNumber" height=200>
 
 ## Example
-![Control Overview](GithubResources/SampleSort.PNG "Example")</br>
+<img src="GithubResources/SampleSort.PNG" alt="Example" height=450>
