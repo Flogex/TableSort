@@ -17,11 +17,11 @@ namespace Flogex.SortingAllgorithms
                 {
                     if (unsortedCollection[x].CompareTo(unsortedCollection[y]) < 0)
                     {
-                        sumOfColumn[y] += 1;
+                        sumOfColumn[y]++;
                     }
                     else
                     {
-                        sumOfColumn[x] += 1;
+                        sumOfColumn[x]++;
                     }
                 }
                 sortedCollection[sumOfColumn[x]] = unsortedCollection[x];
